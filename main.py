@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO, filename="bot_log.csv", filemode="w",
                     format="%(asctime)s: %(levelname)s %(funcName)s-%(lineno)d %(message)s")
 MSG = "{}, что будем готовить?"
 
-bot = Bot("5814478095:AAGv6z5COK3saDLkXJODoWme2WtCWV7wdjc")
+bot = Bot("TOKEN")
 dp = Dispatcher(bot=bot)
 
 @dp.message_handler(commands=['start'])
